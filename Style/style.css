@@ -1,0 +1,35 @@
+/*alignement des information*/
+li {
+    color: red;
+    margin: 2px;
+    padding: 3px;
+}
+label {
+    color: #956e6e;
+}
+label.address {
+    font-style: italic;
+
+}
+label.identifiant {
+    font-weight: bold;
+}
+h1 {
+    color: #1fed5c;
+    font-size: 26px;
+    text-align: center;
+    font-family: serif;
+    text-decoration: underline;
+}
+body {
+    background: linear-gradient(to bottom left, blue, white);
+}
+a {
+    color: green;
+    }
+a:visited {
+        color: black;
+    }
+a:hover {
+    color: yellow;
+}
