@@ -1,11 +1,14 @@
 /*alignement des information*/
 li {
     color: red;
-    margin: 2px;
-    padding: 3px;
+    margin: 4px;
+    padding: 5px;
+    font-family: 'Devonshire', cursive;
+    font-size: 20px;
 }
 label {
     color: #956e6e;
+    font-family: 'Lemonada', cursive;
 }
 label.address {
     font-style: italic;
@@ -16,13 +19,18 @@ label.identifiant {
 }
 h1 {
     color: #1fed5c;
-    font-size: 26px;
+    margin: 40px;
+    padding: 50px;
+    font-size: 30px;
     text-align: center;
-    font-family: serif;
+    font-family: 'Eater', cursive;
     text-decoration: underline;
+    font-weight: normal;
 }
 body {
-    background: linear-gradient(to bottom left, blue, white);
+    background-image: url('../Image/background-17.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 a {
     color: green;
@@ -32,4 +40,11 @@ a:visited {
     }
 a:hover {
     color: yellow;
+}
+ul {
+    list-style: none;
+}
+img {
+    height: 300px;
+    width: 300px;
 }
