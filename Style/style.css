@@ -43,8 +43,29 @@ a:hover {
 }
 ul {
     list-style: none;
+    display: inline-block;
+
 }
 img {
     height: 300px;
     width: 300px;
+}
+nav {
+    background-color: silver;
+
+}
+main {
+    display: inline-block;
+    margin-left: 20em;
+}
+aside {
+    display: inline-block;
+    vertical-align: top;
+
+}
+li.navigation {
+    display: inline;
+}
+#bio {
+    
 }

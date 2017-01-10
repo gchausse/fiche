@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link href="https://fonts.googleapis.com/css?family=Devonshire" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Devonshire" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Lemonada" rel="stylesheet">
         <link href="./Style/style.css" rel="stylesheet">
@@ -12,48 +12,74 @@
     </head>
     <body>
         <h1>Page de Présentation</h1>
-        <ul>
-            <li>
-                <label class="identifiant">
-                nom:
-                </label>
-                chausse
-            </li>
-            <li>
-                <label class="identifiant">
-                prenom:
-                </label>
-                guillaume
-            </li>
-            <li>
-                <label class="address">
-                adresse:
-                </label>
-                29, citée de l'olivier
-            </li>
-            <li>
-                <label class="address">
-                    complement d'adresse:
-                </label>
-                48000 MENDE
-            </li>
-            <li>
-                <label class="address">
-                coordonnées:
-                </label>
-                <a href="https://www.google.fr/maps/place/Chemin+des+Clapasses,+48000+Mende/@44.5264606,3.4773844,18z/data=!4m13!1m7!3m6!1s0x12b36db70601dbc3:0x746f6bbb22b18184!2sChemin+des+Clapasses,+48000+Mende!3b1!8m2!3d44.5272465!4d3.4783098!3m4!1s0x12b36db70601dbc3:0x746f6bbb22b18184!8m2!3d44.5272465!4d3.4783098" alt="adresse" > google map
-                </a>
-            </li>
-            <li>
-                <label class="hobbies">
-                    hobbies:
-                </label>
-                Musique, Cinema,
-            </li>
-            <li>
-                <a href="https://www.google.fr">google</a>
-            </li>
-        </ul>
+        <nav>
+            <ul>
+                <li class="navigation">
+                    <a href="#moi">Nom</a>
+                </li>
+                <li class="navigation">
+                    <a href="#bio">Biographie</a>
+                </li>
+                <li class="navigation">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <aside>
         <img src="./Image/papillon.png" alt="logo de papillon"/>
+        </aside>
+        <main>
+            <section id="moi">
+                <ul>
+                    <li>
+                        <label class="identifiant">
+                nom:
+                        </label>
+                chausse
+                    </li>
+                    <li>
+                        <label class="identifiant">
+                prenom:
+                        </label>
+                guillaume
+                    </li>
+                    <li>
+                        <label class="address">
+                adresse:
+                        </label>
+                29, citée de l'olivier
+                    </li>
+                    <li>
+                        <label class="address">
+                    complement d'adresse:
+                        </label>
+                48000 MENDE
+                    </li>
+                    <li>
+                        <label class="address">
+                coordonnées:
+                        </label>
+                        <a href="https://www.google.fr/maps/place/Chemin+des+Clapasses,+48000+Mende/@44.5264606,3.4773844,18z/data=!4m13!1m7!3m6!1s0x12b36db70601dbc3:0x746f6bbb22b18184!2sChemin+des+Clapasses,+48000+Mende!3b1!8m2!3d44.5272465!4d3.4783098!3m4!1s0x12b36db70601dbc3:0x746f6bbb22b18184!8m2!3d44.5272465!4d3.4783098"> google map
+                        </a>
+                    </li>
+                    <li>
+                        <label class="hobbies">
+                    hobbies:
+                        </label>
+                Musique, Cinema,
+                    </li>
+                </ul>
+            </section>
+            <section id="bio">
+                <h2>Biographie</h2>
+                <a>J'ai 28 ans originaire de Lozére.Je suis titulaire d'un BTS et je suis actuellemnt en formation de dévéloppeur</a>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <a>Numero de téléphone: 06-37-23-**-**
+                    email : guillaum******
+                </a>
+            </section>
+        </main>
     </body>
 </html>
