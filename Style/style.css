@@ -2,9 +2,16 @@
 li {
     color: red;
     margin: 4px;
-    padding: 5px;
+    padding: 3px;
     font-family: 'Devonshire', cursive;
     font-size: 20px;
+}
+p {
+    font-family: 'Lemonada', cursive;
+}
+h2 {
+    font-family: 'Lemonada', cursive;
+    font-size: 24px;
 }
 label {
     color: #956e6e;
@@ -29,11 +36,13 @@ h1 {
 }
 body {
     background-image: url('../Image/background-17.jpg');
-    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 a {
     color: green;
+    padding-left: 2em;
     }
 a:visited {
         color: black;
@@ -51,12 +60,13 @@ img {
     width: 300px;
 }
 nav {
-    background-color: silver;
+    border: 2px solid black;
+    border-radius: 8px;
 
 }
 main {
     display: inline-block;
-    margin-left: 20em;
+    width: 60em;
 }
 aside {
     display: inline-block;
@@ -66,6 +76,14 @@ aside {
 li.navigation {
     display: inline;
 }
-#bio {
-    
+label {
+    display: inline-block;
+width: 6em;
+margin-bottom: 1em;
+}
+fieldset {
+    border:  2px dotted black;
+    margin-left: 6em;
+    display: inline-block;
+    width: 23em;
 }

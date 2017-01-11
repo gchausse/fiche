@@ -11,75 +11,137 @@
         <meta charset="utf-8"/>
     </head>
     <body>
-        <h1>Page de Présentation</h1>
-        <nav>
-            <ul>
-                <li class="navigation">
-                    <a href="#moi">Nom</a>
-                </li>
-                <li class="navigation">
-                    <a href="#bio">Biographie</a>
-                </li>
-                <li class="navigation">
-                    <a href="#contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <aside>
-        <img src="./Image/papillon.png" alt="logo de papillon"/>
-        </aside>
-        <main>
-            <section id="moi">
+        <section id="haut">
+            <h1>Page de Présentation</h1>
+            <nav>
                 <ul>
-                    <li>
-                        <label class="identifiant">
-                nom:
-                        </label>
-                chausse
+                    <li class="navigation">
+                        <a href="#moi">Moi</a>
                     </li>
-                    <li>
-                        <label class="identifiant">
-                prenom:
-                        </label>
-                guillaume
+                    <li class="navigation">
+                        <a href="#bio">Biographie</a>
                     </li>
-                    <li>
-                        <label class="address">
-                adresse:
-                        </label>
-                29, citée de l'olivier
+                    <li class="navigation">
+                        <a href="#contact">Contact</a>
                     </li>
-                    <li>
-                        <label class="address">
-                    complement d'adresse:
-                        </label>
-                48000 MENDE
-                    </li>
-                    <li>
-                        <label class="address">
-                coordonnées:
-                        </label>
-                        <a href="https://www.google.fr/maps/place/Chemin+des+Clapasses,+48000+Mende/@44.5264606,3.4773844,18z/data=!4m13!1m7!3m6!1s0x12b36db70601dbc3:0x746f6bbb22b18184!2sChemin+des+Clapasses,+48000+Mende!3b1!8m2!3d44.5272465!4d3.4783098!3m4!1s0x12b36db70601dbc3:0x746f6bbb22b18184!8m2!3d44.5272465!4d3.4783098"> google map
-                        </a>
-                    </li>
-                    <li>
-                        <label class="hobbies">
-                    hobbies:
-                        </label>
-                Musique, Cinema,
+                    <li class="navigation">
+                        <a href="#formulaire">Formulaire</a>
                     </li>
                 </ul>
-            </section>
-            <section id="bio">
-                <h2>Biographie</h2>
-                <a>J'ai 28 ans originaire de Lozére.Je suis titulaire d'un BTS et je suis actuellemnt en formation de dévéloppeur</a>
-            </section>
-            <section id="contact">
-                <h2>Contact</h2>
-                <a>Numero de téléphone: 06-37-23-**-**
+            </nav>
+        </section>
+            <aside>
+                <img src="./Image/papillon.png" alt="logo de papillon"/>
+            </aside>
+            <main>
+                <section id="moi">
+                    <ul>
+                        <li>
+                            <label class="identifiant">
+                nom:
+                            </label>
+                chausse
+                        </li>
+                        <li>
+                            <label class="identifiant">
+                prenom:
+                            </label>
+                guillaume
+                        </li>
+                        <li>
+                            <label class="address">
+                adresse:
+                            </label>
+                29, citée de l'olivier
+                        </li>
+                        <li>
+                            <label class="address">
+                    complement d'adresse:
+                            </label>
+                48000 MENDE
+                        </li>
+                        <li>
+                            <label class="address">
+                coordonnées:
+                            </label>
+                            <a href="https://www.google.fr/maps/place/Chemin+des+Clapasses,+48000+Mende/@44.5264606,3.4773844,18z/data=!4m13!1m7!3m6!1s0x12b36db70601dbc3:0x746f6bbb22b18184!2sChemin+des+Clapasses,+48000+Mende!3b1!8m2!3d44.5272465!4d3.4783098!3m4!1s0x12b36db70601dbc3:0x746f6bbb22b18184!8m2!3d44.5272465!4d3.4783098"> google map
+                            </a>
+                        </li>
+                        <li>
+                            <label class="hobbies">
+                    hobbies:
+                            </label>
+                Musique, Cinema,
+                        </li>
+                    </ul>
+                </section>
+                <section id="bio">
+                    <h2>Biographie</h2>
+                    <p>J'ai 28 ans originaire de Lozére.Je suis titulaire d'un BTS et je suis actuellemnt en formation de dévéloppeur</p>
+                </section>
+                <section id="contact">
+                    <h2>Contact</h2>
+                    <p>Numero de téléphone: 06-37-23-**-**
                     email : guillaum******
-                </a>
-            </section>
-        </main>
+                    </p>
+
+                </section>
+
+            </main>
+            <footer>
+                <section id="formulaire">
+                    <form action="http://live.codincamp.fr/mail.php" method="post">
+                        <fieldset>
+                            <legend>Vos informations</legend>
+
+                            <label for="name">Nom:</label>
+                            <input type="text" name="name" id="name"/>
+
+                            <label for="prenom">Prenom:</label>
+                            <input type="text" name="prenom" id="prenom"/>
+
+                            <label for="age">Age:</label>
+                            <input type="number" name="age" id="age"/>
+
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email"/>
+
+                            <label for="subject">Sujet:</label>
+                            <input type="text" name="subject" id="subject"/>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Vos message</legend>
+
+                            <label for="message">Commentaires:</label>
+                            <textarea name="message" cols="80" rows="10" id="message">
+                            </textarea>
+                            <input type="submit" name="envoyé" value="Envoyer"/>
+                        </fieldset>
+                    </form>
+                </section>
+                <section id="questionnaire">
+                    <h2>Questionnaire:</h2>
+                        <form>
+                            <fieldset>
+                            <legend>Quel animal de compagnie possédez-vous </legend>
+
+                                <input type="checkbox" id="box1" value="checkbox1"/>
+                                chien
+                                <input type="checkbox" id="box2" value="checkbox2"/>
+                                chat
+                                <input type="checkbox" id="box3" value="checkbox3"/>
+                                poisson
+                                <input type="checkbox" id="box4" value="checkbox4"/>
+                                tigre
+                                <input type="checkbox" id="box5" value="checkbox5"/>
+                                mamouth
+                                <input type="checkbox" id="box6" value="checkbox6"/>
+                                lion
+                            </fieldset>
+                    </form>
+                </section>
+            <a href="#haut"> haut de la page </a>
+
+        </footer>
     </body>
 </html>
